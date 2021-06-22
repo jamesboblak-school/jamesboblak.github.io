@@ -48,7 +48,7 @@ h3 {
 /* @media screen and (min-width: 992px) {
     article {
         flex: 0 0 25%;
-        max-width: 75%;
+        max-width: 25%;
         flex-wrap: wrap;
     }
 
@@ -65,6 +65,7 @@ header:link {
 }
 a:hover {
     color: darkblue;
+    font-size: 120%;
 }
 
 article {
@@ -86,6 +87,7 @@ article {
 img {
     height: 200px;
     margin: var(--space);
+    margin: 10px;
     border-radius: var(--bend);
     box-shadow: 0 0 10px #000;
     position: absolute;
@@ -166,6 +168,6 @@ footer {
     border-radius: var(--bend);
     padding: var(--space);
     top: 320px;
-    background-color: darkslategrey;
-    
+    background-color: darkslategrey;   
 }
+
