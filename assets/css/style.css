@@ -101,11 +101,11 @@ p {
 
 footer {
     background-color: darkslateblue;
-    position: absolute;
-    bottom: -50px;
+    position: fixed;
     /* text-align: center; */
     /* align-items: center; */
     left: 40%;
+    bottom: 0px;
 }
 
 .card-description:hover {
@@ -137,7 +137,7 @@ footer {
     display: flex;
     /* flex: 0 1 100px; */
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     position: absolute;
     border-radius: var(--bend);
     padding: var(--space);
