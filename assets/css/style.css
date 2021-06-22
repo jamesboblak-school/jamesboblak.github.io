@@ -133,6 +133,17 @@ footer {
     background-color:navy;
 }
 
+.card-image {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin: var(--space);
+    justify-content: center;
+    margin: 0 auto;
+}
+
 #main {
     display: flex;
     /* flex: 0 1 100px; */
