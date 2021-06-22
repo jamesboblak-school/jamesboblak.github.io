@@ -2,8 +2,11 @@
     --bend: 20px;
     --space: 20px;
 }
-    body {
+
+body {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -14,25 +17,72 @@ header {
     position: fixed;
     width: 100%;
     background-color: indigo;
+    color: black;
     z-index: 1;
 }
 
+nav {
+    display: flex;
+    display: inline-flex;
+}
+
+h1 {
+    padding: var(--space);
+}
+
+h2 {
+    padding: var(--space);
+}
+
+h3 {
+    padding: var(--space);
+    color: blue;
+}
+
+
+/* @media screen and (min-width: 992px) {
+    article {
+        flex: 0 0 25%;
+        max-width: 75%;
+        flex-wrap: wrap;
+    }
+
+@media screen and (min-width: 768px) {
+    article {
+        flex: 0 0 50%;
+        max-width: 50%;
+        flex-wrap: wrap;
+        } */
+
+
+header:link {
+    color: blue;
+}
+a:hover {
+    color: darkblue;
+}
 
 article {
-display: flex;
-position: relative;
-display: block;
-margin: 20px;
-background-color: darkgreen;
-color: mediumseagreen;
-border-radius: var (--bend);
-width: 25%;
+    display: flex;
+    position: relative;
+    /* flex-wrap: wrap; */
+    flex: 1 1 10px;
+    /* min-width: 25%; */
+    max-width: 40%;
+    display: block;
+    margin: var(--space);
+    background-color: darkgreen;
+    color: mediumseagreen;
+    border-radius: var(--bend);
+    width: 100%;
+    
 }
 
 img {
     height: 200px;
-    margin: 20px;
-    border-radius: 20px;
+    margin: var(--space);
+    border-radius: var(--bend);
+    box-shadow: 0 0 10px #000;
     position: absolute;
     right: 10px;
     top: -20px;
@@ -40,36 +90,58 @@ img {
 
 p {
     display: flex;
-    border-radius: 20px;
-    margin: 20px;
-    padding: 20px;
+    border-radius: var(--bend);
+    margin: var(--space);
+    padding: var(--space);
     color: white;
     background-color: black;
     text-align: center;
     min-width: 100px;
 }
 
+footer {
+    background-color: darkslateblue;
+    position: absolute;
+    bottom: -50px;
+    /* text-align: center; */
+    /* align-items: center; */
+    left: 40%;
+}
+
 .card-description:hover {
     background-color: #772014;
     color: #fff;
 }
+
+.card-description:active {
+    box-shadow: 0 0 10px #000 inset;
+  }
+
+.card-description:focus {
+    background-color: #772014;
+    color: black;
+  }
     
 .card-description {
-    display: flex;
+    /* display: flex; */
     position: relative;
     font-size: 20px;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
+    margin: var(--space);
+    padding: var(--space);
+    border-radius: var(--bend);
     background-size: 100%;
     background-color:navy;
 }
 
 #main {
     display: flex;
+    /* flex: 0 1 100px; */
+    flex-direction: row;
+    /* flex-wrap: wrap; */
     position: absolute;
-    border-radius: 20px;
-    padding: 20px;
-    top: 220px;
+    border-radius: var(--bend);
+    padding: var(--space);
+    top: 200px;
     background-color: darkslategrey;
+    
 }
