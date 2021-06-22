@@ -1,6 +1,7 @@
 :root {
     --bend: 20px;
     --space: 20px;
+    --size: 20px:
 }
 
 body {
@@ -16,7 +17,7 @@ header {
     display: block;
     position: fixed;
     width: 100%;
-    background-color: indigo;
+    background-color: rgb(32, 6, 51);
     color: black;
     z-index: 1;
 }
@@ -24,6 +25,8 @@ header {
 nav {
     display: flex;
     display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -127,12 +130,12 @@ footer {
 .card-description {
     /* display: flex; */
     position: relative;
-    font-size: 20px;
+    font-size: var(--size);
     margin: var(--space);
     padding: var(--space);
     border-radius: var(--bend);
     background-size: 100%;
-    background-color:navy;
+    background-color:rgb(3, 3, 59);
 }
 
 .card-image {
@@ -147,8 +150,11 @@ footer {
 }
 
 #about {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
     position: fixed;
-    top: 120px;
+    top: 160px;
 }
 
 #main {
@@ -159,7 +165,7 @@ footer {
     position: absolute;
     border-radius: var(--bend);
     padding: var(--space);
-    top: 300px;
+    top: 320px;
     background-color: darkslategrey;
     
 }
