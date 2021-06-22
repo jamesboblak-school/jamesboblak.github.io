@@ -28,10 +28,12 @@ nav {
 
 h1 {
     padding: var(--space);
+    color:blanchedalmond;
 }
 
 h2 {
     padding: var(--space);
+    color:blanchedalmond;
 }
 
 h3 {
@@ -144,6 +146,11 @@ footer {
     margin: 0 auto;
 }
 
+#about {
+    position: fixed;
+    top: 120px;
+}
+
 #main {
     display: flex;
     /* flex: 0 1 100px; */
@@ -152,7 +159,7 @@ footer {
     position: absolute;
     border-radius: var(--bend);
     padding: var(--space);
-    top: 200px;
+    top: 300px;
     background-color: darkslategrey;
     
 }
