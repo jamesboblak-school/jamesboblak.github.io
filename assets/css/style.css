@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    background-color: indigo;
+    z-index: 1;
+}
+
+#main {
+    position: absolute;
+    top: 250px;
+    background-color: mediumblue;
+}
+
+article {
+display: flex;
+margin: 50px;
+background-color: darkgreen;
+color: mediumseagreen;
+}
+
+img {
+    height: 200px;
+}
+    
+.card-title {
+    background-color:navy;
+}
