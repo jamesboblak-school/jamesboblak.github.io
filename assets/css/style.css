@@ -159,6 +159,15 @@ footer {
     top: 160px;
 }
 
+#contact {
+    display: flex;
+    flex-direction: column;
+    margin: var(--space);
+    position: absolute;
+    left: 250px;
+    z-index: 1;
+}
+
 #main {
     display: flex;
     /* flex: 0 1 100px; */
