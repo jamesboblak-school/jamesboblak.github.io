@@ -96,6 +96,10 @@ img {
     top: -20px;
 }
 
+.card-image:hover {
+    width: 105%;
+}
+
 p {
     display: flex;
     border-radius: var(--bend);

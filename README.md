@@ -1,14 +1,15 @@
 # jamesboblak.github.io
 ## Welcome to my online portfolio
 James Boblak, full stack developer
-<!-- image placeholder -->
+<!-- image -->
+![James Boblak, full stack developer](./images/JamesBoblak_header.png)
 
-##Developer Terms related to this page:
+##Technology utilized to create this page:
 *HTML
     *Semantic tagging
     *Clear commenting
 *CSS
     *Concise use of Classes and ID's
-    *Variables clearly defined
+    *Variables defined for radius and margin/padding settings
     *Flex-box architecture
-    
+    *
