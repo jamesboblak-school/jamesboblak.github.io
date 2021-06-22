@@ -1,4 +1,8 @@
-body {
+:root {
+    --bend: 20px;
+    --space: 20px;
+}
+    body {
     display: flex;
     background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -6,6 +10,7 @@ body {
 
 header {
     display: flex;
+    display: block;
     position: fixed;
     width: 100%;
     background-color: indigo;
@@ -14,12 +19,14 @@ header {
 
 
 article {
-/* display: flex; */
+display: flex;
 position: relative;
+display: block;
 margin: 20px;
 background-color: darkgreen;
 color: mediumseagreen;
-border-radius: 20px;
+border-radius: var (--bend);
+width: 25%;
 }
 
 img {
@@ -28,15 +35,23 @@ img {
     border-radius: 20px;
     position: absolute;
     right: 10px;
+    top: -20px;
 }
 
 p {
     display: flex;
     border-radius: 20px;
-    margin: 45px;
+    margin: 20px;
+    padding: 20px;
     color: white;
     background-color: black;
     text-align: center;
+    min-width: 100px;
+}
+
+.card-description:hover {
+    background-color: #772014;
+    color: #fff;
 }
     
 .card-description {
@@ -44,6 +59,7 @@ p {
     position: relative;
     font-size: 20px;
     margin: 20px;
+    padding: 20px;
     border-radius: 20px;
     background-size: 100%;
     background-color:navy;
@@ -53,6 +69,7 @@ p {
     display: flex;
     position: absolute;
     border-radius: 20px;
+    padding: 20px;
     top: 220px;
     background-color: darkslategrey;
 }
