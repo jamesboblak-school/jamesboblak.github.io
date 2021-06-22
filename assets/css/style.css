@@ -26,6 +26,7 @@ nav {
     display: flex;
     display: inline-flex;
     flex-direction: row;
+    max-width: 65%;
     flex-wrap: wrap;
 }
 
@@ -35,12 +36,12 @@ h1 {
 }
 
 h2 {
-    padding: var(--space);
+    padding: 0 10px 10px 10px;
     color:blanchedalmond;
 }
 
 h3 {
-    padding: var(--space);
+    padding: 0 10px 0 10px;
     color: blue;
 }
 
@@ -164,7 +165,7 @@ footer {
     flex-direction: column;
     margin: var(--space);
     position: absolute;
-    left: 250px;
+    left: 25%;
     z-index: 1;
 }
 
