@@ -1,19 +1,19 @@
 # jamesboblak.github.io
 ## Welcome
 
-James Boblak, full stack developer, portfolio\
+James Boblak, full stack developer, portfolio  
 ![Demo .gif](./images/James-Boblak-Bio_gif3.gif)\
 <!-- Header image -->
 ![James Boblak, full stack developer, portfolio](./images/JamesBoblak_header.png)\
-The Header features links to project details within the page, as well as contact information.\
+The Header features links to project details within the page, as well as contact information.  
 
 <!-- Body information -->
 ![Body of page](./images/James-Boblak_body_scrunch.png)\
-The body of the page auto-sizes down to accommodate any screen size without sacrificing text or image size.\
+The body of the page auto-sizes down to accommodate any screen size without sacrificing text or image size.  
 
 <!-- Card information -->
 ![Cards](./images/James-Boblak_cards.png)\
-Each of the code titles in the Project cards links directly to its GitHub repository, and the images link to the pages themselves.  The last two are presently placholders, which link to my portfolio page.\
+Each of the code titles in the Project cards links directly to its GitHub repository, and the images link to the pages themselves.  The last two are presently placholders, which link to my portfolio page.  
 
 <!-- Statement of purpose -->
 ## Purpose
