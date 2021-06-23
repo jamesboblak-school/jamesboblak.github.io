@@ -1,6 +1,6 @@
 :root {
     --bend: 20px;
-    --space: 20px;
+    --space: 15px;
     --size: 20px:
 }
 
@@ -89,6 +89,7 @@ article {
 }
 
 img, a.img {
+    flex: 0 1 200px;
     height: 200px;
     width: 200px;
     margin: var(--space);
@@ -190,7 +191,7 @@ footer {
     position: absolute;
     border-radius: var(--bend);
     padding: var(--space);
-    top: 320px;
+    top: 300px;
     background-color: darkslategrey;   
 }
 
