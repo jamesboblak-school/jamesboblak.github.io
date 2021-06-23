@@ -1,19 +1,19 @@
 # jamesboblak.github.io
-## Welcome to my online portfolio
+## Welcome
 
-James Boblak, full stack developer
-![Demo .gif](./images/James-Boblak-Bio_gif3.gif)
+James Boblak, full stack developer, portfolio\
+![Demo .gif](./images/James-Boblak-Bio_gif3.gif)\
 <!-- Header image -->
-![James Boblak, full stack developer](./images/JamesBoblak_header.png)
-The Header features links to project details within the page, as well as contact information.
+![James Boblak, full stack developer, portfolio](./images/JamesBoblak_header.png)\
+The Header features links to project details within the page, as well as contact information.\
 
 <!-- Body information -->
-![Body of page](./images/James-Boblak_body_scrunch.png)
-The body of the page auto-sizes down to accommodate any screen size without sacrificing text or image size.
+![Body of page](./images/James-Boblak_body_scrunch.png)\
+The body of the page auto-sizes down to accommodate any screen size without sacrificing text or image size.\
 
 <!-- Card information -->
-![Cards](./images/James-Boblak_cards.png)
-Each of the code titles in the Project cards links directly to its GitHub repository, and the images link to the pages themselves.  The last two are presently placholders, which link to my portfolio page.
+![Cards](./images/James-Boblak_cards.png)\
+Each of the code titles in the Project cards links directly to its GitHub repository, and the images link to the pages themselves.  The last two are presently placholders, which link to my portfolio page.\
 
 <!-- Statement of purpose -->
 ## Purpose
@@ -24,6 +24,7 @@ I am forever updating this site to reflect the evolution of my career and craft.
 * HTML
     * Semantic tagging
     * Sectional commenting
+    * Internal and external linking
 
     <!-- CSS Points -->
 * CSS
@@ -37,7 +38,7 @@ I am forever updating this site to reflect the evolution of my career and craft.
 This HTML website and its CSS style document was created and tested in Chrome, but will load in any browser.  Most modern browsers should play the content of this page as intended, and without issue.  Firefox however can be sniffy about flex!
 
 ## Credits:
-UCBerkeley Code Camp
+UCBerkeley Code Camp, w3schools.com, developer.mozilla.org
 
 ## License
 GNU General Public License v3.0

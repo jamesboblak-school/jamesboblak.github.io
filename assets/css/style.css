@@ -145,8 +145,6 @@ p {
 footer {
     background-color: darkslateblue;
     position: fixed;
-    /* text-align: center; */
-    /* align-items: center; */
     left: 40%;
     bottom: 0px;
 }
@@ -187,7 +185,6 @@ footer {
     left: 0px;
     top: 0px;
     margin: var(--space);
-    /* justify-content: center; */
     margin: 0 auto;
 }
 
@@ -219,7 +216,6 @@ footer {
 /* Main ID flex container */
 #main {
     display: flex;
-    /* flex: 0 1 100px; */
     flex-direction: row;
     flex-wrap: wrap;
     position: absolute;
