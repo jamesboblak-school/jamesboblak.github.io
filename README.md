@@ -1,6 +1,7 @@
 # jamesboblak.github.io
 ## Welcome to my online portfolio
 James Boblak, full stack developer
+[![Demo video]({./images/James-Boblak_bio_thumb.png})]({./images/James-Boblak_bio_thumb2.png} "Page demo video")
 <!-- image -->
 ![James Boblak, full stack developer](./images/JamesBoblak_header.png)
 

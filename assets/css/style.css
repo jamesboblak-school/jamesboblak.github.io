@@ -1,5 +1,5 @@
 :root {
-    --bend: 20px;
+    --bend: 15px;
     --space: 10px;
     --size: 20px:
 }
@@ -95,7 +95,7 @@ img, a.img {
     margin: var(--space);
     margin: 10px;
     border-radius: var(--bend);
-    box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 30px #000;
     position: relative;
     justify-items: center;
     right: 10px;
