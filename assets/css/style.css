@@ -1,6 +1,6 @@
 :root {
     --bend: 20px;
-    --space: 15px;
+    --space: 10px;
     --size: 20px:
 }
 
@@ -191,7 +191,7 @@ footer {
     position: absolute;
     border-radius: var(--bend);
     padding: var(--space);
-    top: 300px;
+    top: 320px;
     background-color: darkslategrey;   
 }
 
