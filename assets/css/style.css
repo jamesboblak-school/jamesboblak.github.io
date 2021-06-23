@@ -26,8 +26,10 @@ nav {
     display: flex;
     display: inline-flex;
     flex-direction: row;
-    max-width: 65%;
+    width: 65%;
+    top: 35px;
     flex-wrap: wrap;
+    z-index: 3;
 }
 
 h1 {
@@ -38,6 +40,7 @@ h1 {
 h2 {
     padding: 0 10px 10px 10px;
     color:blanchedalmond;
+    margin-top: 35px;
 }
 
 h3 {
@@ -51,9 +54,9 @@ h3 {
         flex: 0 0 25%;
         max-width: 25%;
         flex-wrap: wrap;
-    }
+    } */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     article {
         flex: 0 0 50%;
         max-width: 50%;
@@ -85,19 +88,21 @@ article {
     
 }
 
-img {
+img, a.img {
     height: 200px;
+    width: 200px;
     margin: var(--space);
     margin: 10px;
     border-radius: var(--bend);
     box-shadow: 0 0 10px #000;
-    position: absolute;
+    position: relative;
+    justify-items: center;
     right: 10px;
     top: -20px;
 }
 
 .card-image:hover {
-    width: 105%;
+    width: 220px;
 }
 
 p {
@@ -152,10 +157,13 @@ footer {
     left: 0px;
     top: 0px;
     margin: var(--space);
-    justify-content: center;
+    /* justify-content: center; */
     margin: 0 auto;
 }
 
+#my-picture {
+    position: absolute;
+}
 #about {
     display: flex;
     flex-direction: column;
@@ -170,7 +178,8 @@ footer {
     margin: var(--space);
     position: absolute;
     left: 25%;
-    z-index: 1;
+    top: 25px;
+    z-index: 2;
 }
 
 #main {
