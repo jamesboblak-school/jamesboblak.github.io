@@ -2,11 +2,9 @@
 ## Welcome to my online portfolio
 
 James Boblak, full stack developer
-![Demo .gif]
-(./images/James-Boblak-Bio_gif3.gif)
+![Demo .gif](./images/James-Boblak-Bio_gif3.gif)
 <!-- Header image -->
-![James Boblak, full stack developer]
-(./images/JamesBoblak_header.png)
+![James Boblak, full stack developer](./images/JamesBoblak_header.png)
 The Header features links to project details within the page.
 
 <!-- Statement of purpose -->
