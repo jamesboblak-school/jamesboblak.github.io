@@ -30,7 +30,7 @@ Each of the code titles in the Project cards links directly to its GitHub reposi
 
 <!-- Statement of purpose -->
 ## Purpose
-I am forever updating this site to reflect the evolution of my career and craft.  Please fork any repositories you like, and also feel free to comment or reach out.  I am also happy to help be a Rubber Duck for your designs at the very least!
+I update this site to reflect the evolution of my career and craft.  Please fork any repositories you like, and also feel free to comment or reach out.  I am also happy to help be a Rubber Duck for your designs, at the very least!
 
 ## Technology utilized to create this page:
 <!-- HTML Pionts -->
