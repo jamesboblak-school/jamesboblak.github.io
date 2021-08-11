@@ -38,7 +38,7 @@ nav {
     display: inline-flex;
     flex-direction: row;
     width: 65%;
-    top: 35px;
+    top: 60px;
     flex-wrap: wrap;
     z-index: 3;
 }
