@@ -226,7 +226,10 @@ footer {
 
 /* Card1: cancel width increase on mouse hover */
 #card1 img:hover {
+    
     width: 300px;
+    position: relative;
+    justify-items: center;
 }
 
 
