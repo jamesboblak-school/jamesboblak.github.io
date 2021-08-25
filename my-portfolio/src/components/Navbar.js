@@ -9,6 +9,10 @@ export default function Navbar() {
           <a href="#about" className="ml-3 text-xl">
             James Boblak
           </a>
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+            Hi, I'm James Boblak.
+            <br className="hidden lg:inline-block" />I love developing apps.
+          </h1>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
           <a href="#projects" className="mr-5 hover:text-white">
@@ -20,6 +24,10 @@ export default function Navbar() {
           <a href="#testimonials" className="mr-5 hover:text-white">
             Testimonials
           </a> */}
+          <p className="mb-8 leading-relaxed">
+            Thank you for coming to check out my portfolio!
+            <br/>If you have any questions or ideas, please feel free to cotact me any time.
+          </p>
         </nav>
         <a
           href="#contact"

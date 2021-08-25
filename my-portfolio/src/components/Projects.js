@@ -16,13 +16,14 @@ export default function Projects() {
             I've had the pleasure to build several apps on my own, and a few with a team.  Pleaes feel free to try the apps out and contact me with any interest or questions.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4" id="card1">
           {projects.map((project) => (
+            <article>
             <a
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
+              <div className="flex relative card-description">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
@@ -39,6 +40,7 @@ export default function Projects() {
                 </div>
               </div>
             </a>
+            </article>
           ))}
         </div>
       </div>
