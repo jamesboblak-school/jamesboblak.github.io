@@ -49,7 +49,7 @@ nav {
 }
 
 div {
-    margin: 20px;
+    margin: 10px;
 }
 
 /* Headings element styling */
@@ -121,6 +121,13 @@ article {
     color: mediumseagreen;
     border-radius: var(--bend);
     width: 100%;
+    box-shadow: 20px;
+
+
+}
+
+section {
+    box-shadow: 20px;
 
 }
 
@@ -216,6 +223,8 @@ footer {
     top: 0px;
     margin: var(--space);
     margin: 0 auto;
+    box-shadow: 20px;
+
 }
 
 /* Card1 sizing */
