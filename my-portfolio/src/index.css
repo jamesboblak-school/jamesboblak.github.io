@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(56, 28, 28);
+    background-color: rgb(37, 19, 19);
     box-shadow: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -49,7 +49,10 @@ nav {
 }
 
 div {
-    margin: 10px;
+    /* margin: 10px; */
+    display: flex;
+    display: inline-flex;
+    /* flex-direction: row; */
 }
 
 /* Headings element styling */
@@ -81,7 +84,7 @@ h4 {
 /* I was not able to get these to function porperly, so I commented them out.  I was able to get some benefit from flex-wrap for small devices. */
 @media screen and (max-width: 992px) {
     body {
-        flex: 0 0 100%;
+        flex: 2 2 100%;
         max-width: 100%;
         flex-wrap: wrap;
     }
@@ -89,7 +92,7 @@ h4 {
 
 @media screen and (max-width: 768px) {
     body {
-        flex: 0 0 100%;
+        flex: 1 1 100%;
         max-width: 100%;
         flex-wrap: wrap;
     }
@@ -110,8 +113,8 @@ a:hover {
 /* Card flex element container */
 article {
     display: flex;
-    position: relative;
-    flex: 1 1 10px;
+    position: inherit;
+    flex: 5 5 10px;
     max-width: 40%;
     min-width: 320px;
     display: block;
