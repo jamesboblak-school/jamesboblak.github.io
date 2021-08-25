@@ -22,7 +22,7 @@ export default function About() {
             <a
               href="#projects"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Projects
+              See My Past Work
             </a>
           </div>
         </div>
@@ -30,7 +30,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./logo.svg"
+            src="./assets/images/james_coffee.jpg"
           />
         </div>
       </div>
