@@ -10,8 +10,8 @@ export default function Navbar() {
             James Boblak
           </a>
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm James Boblak.
-            <br className="hidden lg:inline-block" />I love developing apps.
+            James Boblak
+            <br className="hidden lg:inline-block" />Full Stack Developer
           </h1>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
@@ -26,7 +26,10 @@ export default function Navbar() {
           </a> */}
           <p className="mb-8 leading-relaxed">
             Thank you for coming to check out my portfolio!
-            <br/>If you have any questions or ideas, please feel free to cotact me any time.
+            <br/>
+            I've had the pleasure to build several apps on my own, and a few with a team.
+            <br/>
+            Please feel free to try the apps out and contact me with any interest or questions.
           </p>
         </nav>
         <a

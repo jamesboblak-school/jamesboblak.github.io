@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 /* Global Variables */
 :root {
@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(37, 19, 19);
+    background-color: rgb(19, 7, 7);
     box-shadow: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -31,7 +31,7 @@ header {
     display: block;
     position: fixed;
     width: 100%;
-    background-color: rgb(30, 2, 51);
+    background-color: rgb(35, 0, 42);
     color: whitesmoke;
     z-index: 5;
 }
@@ -65,10 +65,11 @@ h1 {
 }
 
 h2 {
-    padding: 0 10px 10px 10px;
+    /* padding: 0 10px; */
     color: blanchedalmond;
-    margin-top: 35px;
+    /* margin-top: 35px; */
     font-size: 125%;
+    text-justify: center;
 }
 
 h3 {
@@ -83,7 +84,6 @@ h4 {
     font-size: 75%;
 }
 
-/* I was not able to get these to function porperly, so I commented them out.  I was able to get some benefit from flex-wrap for small devices. */
 @media screen and (max-width: 992px) {
     body {
         flex: 2 2 100%;
@@ -121,10 +121,12 @@ article {
     min-width: 320px;
     display: block;
     margin: var(--space);
-    padding: 50px;
-    background-color: rgb(0, 29, 0);
+    padding: 20px;
+    background-color: rgb(0, 95, 0);
     color: mediumseagreen;
     border-radius: var(--bend);
+    border-style: groove;
+    border-color: rgb(46, 0, 46);
     width: 100%;
     box-shadow: 20px;
 
@@ -132,7 +134,7 @@ article {
 }
 
 section {
-    box-shadow: 20px;
+    box-shadow: 40px;
 
 }
 
@@ -199,7 +201,7 @@ footer {
 
 /* Card description class mouse-click listener */
 .card-description:active {
-    box-shadow: 0 0 10px #000 inset;
+    box-shadow: 0 0 30px rgb(0, 0, 0) inset;
 }
 
 /* Card description class mouse-clicked listener */
@@ -212,11 +214,11 @@ footer {
 .card-description {
     position: relative;
     font-size: var(--size);
-    margin: var(--space);
+    /* margin: var(--space); */
     padding: var(--space);
     border-radius: var(--bend);
-    background-size: 110%;
-    background-color: rgb(3, 3, 59);
+    background-size: 102%;
+    background-color: rgb(2, 2, 36);
 }
 
 /* Card image class flex container */
@@ -239,12 +241,12 @@ footer {
     height: 300px;
     width: 300px;
     margin: var(--space);
-    margin: 10px;
+    margin: px;
     border-radius: var(--bend);
-    box-shadow: 0 0 30px #000;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
     position: relative;
     justify-items: center;
-    right: 10px;
+    /* right: 10px; */
     top: 0px;
 
 }
@@ -261,7 +263,7 @@ footer {
 /* Picture ID at the top postion */
 #my-picture {
     /* position: relative; */
-    margin-right: 10%;
+    margin-right: 13%;
     position: fixed;
 
         z-index: 16;
@@ -288,7 +290,7 @@ footer {
 }
 
 #projects {
-    margin-top: 100px;
+    margin-top: 140px;
 
 }
 
