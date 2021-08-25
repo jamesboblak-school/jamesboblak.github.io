@@ -4,7 +4,7 @@ export const projects = [
       subtitle: "design a party with your party",
       description:
         "I worked with two other devolpers to create this Event Coordination application. When you need to organize a party to take to an event - look no further! Inform and involve your guests in advance with <strong>Event Architect.</strong>",
-      image: "./assets/images/event-architect_thumb.png",
+      image: "/assets/images/event-architect_thumb.png",
       link: "http://stark-crag-36907.herokuapp.com/",
     },
     {
