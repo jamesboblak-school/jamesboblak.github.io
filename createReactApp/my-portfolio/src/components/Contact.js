@@ -39,6 +39,30 @@ export default function Contact() {
           </div>{" "}
         </div>{" "}
       </div>{" "}
+
+<div>
+<article>
+  <h2>About Me</h2>
+  <p>I am a seasoned Project Manager, and am a partner at Bx2 Group Consulting.  I love a good challenge, and won't sleep until I find the best solution!  My hobbies include music, kayaking, and my dog, Freddie!</p>
+</article>
+
+
+      <form>
+  <article><label>
+    <h2>Send me a message!</h2>
+    Name: 
+    <input type="text" name="email" />
+    <br></br>
+    Email: 
+    <input type="text" name="email" />
+    <br></br>
+    Message: 
+    <input type="text" name="email" />
+    <br></br>
+  </label></article>
+  <input type="submit" value="Submit" />
+</form>
+</div>
     </section>
   );
 }
