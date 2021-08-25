@@ -187,10 +187,12 @@ p {
 
 /* Footer element styling*/
 footer {
-    background-color: darkslateblue;
+    background-color: rgb(136, 130, 177);
+    background-blend-mode: exclusion;
     position: fixed;
     left: 40%;
     bottom: 0px;
+    border-radius: var(--bend);
 }
 
 /* Card description class mouse-over listener */
