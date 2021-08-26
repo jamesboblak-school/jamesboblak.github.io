@@ -28,10 +28,10 @@ Please have a look through my app, and the code I created to bring them to life.
 ## Credits
 
 * [James Boblak](https://www.linkedin.com/in/james-boblak-03161170/)
-* YouTube.com
+* [YouTube.com](www.youtube.com)
 * [freecodecamp.com](https://www.freecodecamp.org/news/best-react-javascript-tutorial/)
 * [w3schools.com](https://www.w3schools.com/)
-* https://chrome.google.com/webstore/detail/react-developer-tools
+* [Chrome React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools)
 * [UC Berkeley Extension Full Stack Developer Bootcamp](https://bootcamp.berkeley.edu/coding/)  
 
 ## License
