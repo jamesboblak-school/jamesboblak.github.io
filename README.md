@@ -22,7 +22,7 @@ This app was constructed in React.js, but was then built for any modern browser.
 
 ## Usage 
 
-Please have a look through my app, and the code I created to bring them to life.  
+Please have a look through some of the apps I have developed, and the code I created to bring them to life.  Please feel free to reach out to me any time!
 
 
 ## Credits
