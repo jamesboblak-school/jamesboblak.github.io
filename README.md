@@ -1,6 +1,6 @@
 # James Boblak, React Portfolio
 
-## I've developed a React.js depolyment of my Full Stack Developer portfolio.
+## Here is a React.js deployment of my Full Stack Developer portfolio.  Thanks for coming to visit!
 
 [Open](https://jamesboblak.github.io/) React Portfolio:
 https://jamesboblak.github.io/
