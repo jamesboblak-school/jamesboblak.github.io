@@ -5,7 +5,7 @@
 [Open](https://jamesboblak.github.io/) React Portfolio:
 https://jamesboblak.github.io/
 
-![James Boblak Portfolio gif](./assets/gifs/react-portfolio_demo.gif)
+![James Boblak Portfolio gif](./assets/images/react-portfolio_demo.gif)
 
 ## Table of Contents
 
